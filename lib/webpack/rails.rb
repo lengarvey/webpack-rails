@@ -1,7 +1,4 @@
-require "webpack/rails/version"
-
-module Webpack
-  module Rails
-    # Your code goes here...
-  end
+require 'webpack/rails/version'
+if defined? Rails::Railtie
+  require 'webpack/railtie'
 end

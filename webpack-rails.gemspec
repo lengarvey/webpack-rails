@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Webpack::Rails::VERSION
   spec.authors       = ["Leonard Garvey"]
   spec.email         = ["lengarvey@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Webpack for Rails}
+  spec.description   = %q{Replaces sprockets with webpack}
   spec.homepage      = ""
   spec.license       = "MIT"
 
